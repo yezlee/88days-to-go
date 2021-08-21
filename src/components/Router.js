@@ -1,7 +1,7 @@
 import { BrowserRouter, Link, Route } from "react-router-dom";
 import Main from "routes/Main";
 import Login from "routes/Login";
-import Navigation from "components/Navigation";
+import Sidebar from "components/Sidebar";
 
 const AppRouter = ({ isLoggedIn }) => {
   console.log(isLoggedIn);

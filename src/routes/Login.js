@@ -29,20 +29,20 @@ const Login = () => {
           <input
             type="text"
             name="email"
-            placeholder="Email"
             value={email}
             onChange={onChange}
+            placeholder="Email"
             required
           />
           <input
             type="password"
             name="password"
-            placeholder="Password"
             value={password}
             onChange={onChange}
+            placeholder="Password"
             required
           />
-          <input type="submit" value="Log In" />
+          <input type="submit" value="Login" />
         </form>
         <div>
           <button>Continue with Google</button>

@@ -4,7 +4,7 @@ import { authService } from "fbase";
 function App() {
   const user = authService.currentUser;
   console.log(user);
-  const boolean = false;
+  const boolean = true;
   console.log(boolean);
   return (
     <div>

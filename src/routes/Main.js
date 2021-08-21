@@ -2,14 +2,12 @@ import { BrowserRouter, Link, Route } from "react-router-dom";
 import MyInfo from "routes/MyInfo";
 import MyJobs from "routes/MyJobs";
 import MyWork from "routes/MyWork";
+import "css/Main.css";
 
 const Main = () => {
   return (
-    <div>
+    <div className="main">
       <BrowserRouter>
-        <h3>This is Main Page.</h3>
-        <p>name</p>
-        <p>information</p>
         <ul>
           <li>
             <Link to="/myinfo">My Info</Link>
