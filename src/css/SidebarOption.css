@@ -1,0 +1,9 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarOption h2 {
+  display: inline-block;
+}

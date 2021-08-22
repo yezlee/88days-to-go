@@ -8,16 +8,23 @@ import HomeIcon from "@material-ui/icons/Home";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <ul>
-        <li>
-          <Link to="/">
-            <SidebarOption active Icon={HomeIcon} text="Home" />
-          </Link>
-        </li>
-        <li>
-          <Link to="/">Login</Link>
-        </li>
-      </ul>
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <SidebarOption active Icon={HomeIcon} text="Home" />
+      </Link>
+      <Link to="/">
+        <SidebarOption active Icon={HomeIcon} text="Home" />
+      </Link>
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <SidebarOption active Icon={HomeIcon} text="Home" />
+      </Link>
+      <Link to="/">
+        <SidebarOption active Icon={HomeIcon} text="Home" />
+      </Link>
+      <Link to="/">
+        <SidebarOption active Icon={HomeIcon} text="Home" />
+      </Link>
+
+      <Link to="/">Login</Link>
     </div>
   );
 };
